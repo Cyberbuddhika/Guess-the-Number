@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -116,4 +116,74 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    height: 30vh;
+  }
+
+  main {
+    height: 55vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left {
+    width: 80%;
+    padding-bottom: 5rem;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0rem;
+  }
+
+  .between {
+    font-size: 1.2rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .again {
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+
+  .guess {
+    font-size: 3rem;
+    padding: 1.5rem;
+    width: 60%;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .message {
+    margin-bottom: 5rem;
+    height: 2.5rem;
+    font-size: 1.8rem;
+  }
+
+  .label-score {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .label-highscore {
+    font-size: 1.8rem;
+  }
 }
